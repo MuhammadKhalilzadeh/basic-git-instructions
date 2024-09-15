@@ -47,3 +47,42 @@ Before creating a new branch every time, or after your pull request is merged an
 `git fetch`
 
 ---
+
+#### Checking out and creating a new branch
+
+To create a new branch and move to the next task or feature, you'll need to perform the command below:
+
+`git checkout -b <name_of_the_new_branch>`
+
+please note that this command, creates a new branch with reference to the branch you're on while performing this branch.
+
+---
+
+#### Add, Commit and Push
+
+After you've developed the feature you wanted and you're done with your task, you will need to add new changes to your github repository.
+
+Here are the steps you'll need to take:
+
+1. Staging(adding) new changes, i.e., deletions, modifications, etc.
+   Here's the command for that:
+   `git add .`
+
+2. After that, you'll need to commit and better to add a meaningful brief message that shortly describes what you have done in this commit.
+   `git commit -m "<your_message>"`
+   Example: `git commit -m "Completing the dashboard"`
+
+3. Now. it's time to push your commited code to your repository
+   `git push`
+
+---
+
+#### Making pull request to the original repository
+
+After you push your new changes to your forked repository, you may want to make a pull request to the original repository and contribute to the main project. In that case, first open your forked repository's github page. Click on the **Contribute**, then **Open pull request**.
+
+![Sync fork](./pics/4-0-pr.png)
+
+---
+
+_Do not forget to sync and fetch after you got your pull request merged_
