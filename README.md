@@ -33,3 +33,17 @@ You can also clone your repository using the following command:
 example: `git clone https://github.com/bluewave-labs/verifywise.git`
 
 ---
+
+#### Syncing and fetching latest updates
+
+Before creating a new branch every time, or after your pull request is merged and your about to move to the next step (e.g. task or issue), you must fetch the latest changes from the original repository and make your forked repository up-to-date. So, here's how you can do it.
+
+1. After you've got your **pull request** **_merged_** or before **creating a new branch**, open the github page of your forked repository and click on the **Sync fork** button to make your repo up-to-date, as below:
+
+![Sync fork](./pics/3-0-sync.png)
+
+2. After syncing, you'll need to perform the following command on your system to fetch the changes on your local, too.
+
+`git fetch`
+
+---
