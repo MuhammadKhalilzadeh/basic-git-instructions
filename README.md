@@ -56,6 +56,14 @@ To create a new branch and move to the next task or feature, you'll need to perf
 
 please note that this command, creates a new branch with reference to the branch you're on while performing this branch.
 
+note: As a best practice, I recommend you to name your branches in a format as below.
+
+`[0-9][0-9][0-9]-[Month]-[Day]-[subject]`
+
+Example: `001-Mar-17-sidebar`
+
+in a format like this, you'll be able to keep everything in order and also keep track of your progress for how big of a task is done in how much time.
+
 ---
 
 #### Add, Commit and Push
